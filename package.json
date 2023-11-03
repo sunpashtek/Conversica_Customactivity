@@ -10,7 +10,7 @@
     "node": ">=20.9.0"
   },
   "scripts": {
-    "dev": "concurrently \"npm start\" \"webpack --watch\"",
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider && next concurrently \"npm start\" \"webpack --watch\"",
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development",
     "heroku-prebuild": "npm install --dev",

@@ -1,8 +1,8 @@
 {
-  "name": "sfmc-jb-custom-activity-example",
+  "name": "Conversica-CustomActivity",
   "version": "0.0.1",
   "main": "app.js",
-  "author": "Salesforce Marketing Cloud",
+  "author": "Martekventures",
   "description": "Journey Builder Custom Activities",
   "license": "BSD-3-Clause",
   "scripts": {

@@ -5,6 +5,10 @@
   "author": "Martekventures",
   "description": "Journey Builder Custom Activities",
   "license": "BSD-3-Clause",
+  "engines": {
+    "npm": ">=10.2.2",
+    "node": ">=20.9.0"
+  },
   "scripts": {
     "dev": "concurrently \"npm start\" \"webpack --watch\"",
     "build": "webpack --mode production",
